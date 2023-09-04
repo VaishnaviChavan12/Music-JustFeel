@@ -15,11 +15,13 @@
         <link rel="icon" type="image/x-icon" href="../../Images/siteImage/fav-icon.png">
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="../CSS/homepage.js"></script>
     </head>
 
     <body>
         <div>
-            <div id="headOfSite" ">
+            <div
+                id="headOfSite" ">
                 <!-- Navigation Bar -->
                 <nav class="navbar navbar-expand-lg text-white bg-dark ">
                     <a href="Homepage.html"><img src="../Images/siteImage/site-icon.png" height="25.5rem" width="25.5rem"></a>
@@ -159,11 +161,11 @@
 
                 <div class="sec no-scrollbar">
                     <a
-                        href="#">
+                        href="#" >
                         <!--Create a first Section-->
                         <section class="column text-white">
-                            <img class="Image" src="../Images/trend/adipurush.jpg">
-                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                            <img id="Show_TS_1" class="Image" src="../Images/trend/adipurush.jpg">
+                            <div  class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
                                 Ram Siya Ram
                             </div>
                         </section>
@@ -524,23 +526,53 @@
 
         </div>
 
+
+        <!--Create a section to show which song is going on-->
+        <div id="Hidden_TS_1" style="display: none;">
+            <!-- Content of the hidden section goes here -->
+            <div class="mx-auto" style="width: 7500px;height: 250px;position: fixed;top: 660px;left: 00px;background-color: black !important;">
+                <div class="music-player container">
+                    <div class="currently-playing">
+                        <div class="ml-4 min-w-[3rem] alignInLine">
+                            <span class="relative block">
+                                <span style="box-sizing: border-box; display: inline-block; overflow: hidden; width: 70%; height: 70%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;">
+                                    <span style="box-sizing: border-box; display: block; width: 40%; height: 40%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;">
+                                        <img alt=""class="imgFooter" aria-hidden="true" src="../Images/trend/chaleya.jpg" style="display: block; max-width: 100%; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; min-height: 10%; min-width: 10%; ">
+                                    </span>
+                                </span>
+                            </span>
+                        </div>
+                        <div class="song-info alignInLine" style="color: white;margin-left: -160px;">
+                           <h2 class="footerSongName">Chaleya</h2>
+                            <p>Anirudh Ravichander</p>
+                        </div>
+
+                        <audio controls class="alignInLine" style="width: 700px;margin-left: 250px;">
+                            <source src="chill.mp3" type="audio/mp3"/>
+                            <source src="chill.ogg"/>
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- About Section 
-                    <section>
-                        <div class="container">
-                            <h2>About Us</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula ex eu ultricies.</p>
-                        </div>
-                    </section>-->
+                            <section>
+                                <div class="container">
+                                    <h2>About Us</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula ex eu ultricies.</p>
+                                </div>
+                            </section>-->
         <!-- Footer >
-                    <footer class="footer bg-dark text-white text-center py-1">
-                        <div class="container">
-                            <p>&copy; 2023 Your Company. All Rights Reserved.</p>
-                        </div>
-                    </footer>  -->
+                            <footer class="footer bg-dark text-white text-center py-1">
+                                <div class="container">
+                                    <p>&copy; 2023 Your Company. All Rights Reserved.</p>
+                                </div>
+                            </footer>  -->
 
 
         <!--Create a slide-->
-            <script>
+<script>
+//Create a slide to be movable
 const carouselTrack = document.querySelector('.carousel-track');
 const carouselSlides = document.querySelectorAll('.carousel-slide');
 const slideWidth = carouselSlides[0].clientWidth;
@@ -572,6 +604,8 @@ for (const control of carouselControls) {
 }
 
 let autoSlideInterval = setInterval(nextSlide, 4000);
+
+
     </script>
         <!-- Link to Bootstrap JS and jQuery -->
 
