@@ -1,0 +1,128 @@
+.menu li {
+    list-style-type: none;
+    float: left;
+}
+
+.mr-sm-2,
+.mx-sm-2 {
+    margin-left: 47.5rem !important;
+    width: 30%;
+}
+
+.navbar-expand-lg {
+    justify-content: flex-center;
+}
+
+body {
+    background-image: url('..//Images/siteImage/backgroundImage.jpg');
+    background-size: cover;
+    /* Adjust to your needs */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* This keeps the background fixed while scrolling */
+}
+
+.row {
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    overflow: auto;
+    max-width: 1000px;
+}
+
+.Image {
+    min-height: 170px !important;
+    max-width: 170px;
+    border-radius: 10%;
+    /* This creates a circular shape */
+    overflow: hidden;
+}
+
+.column {
+    flex: 1;
+    padding: 0px;
+    border: 0px solid #ccc;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.sec {
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+    min-width: 950px;
+}
+
+.image-slider {
+    max-width: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider-container {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+.slider-item {
+    flex: 0 0 100%;
+}
+
+.slider-controls {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.slider-control {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.carousel-container {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 0%;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+  }
+  
+
+  .carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  .carousel-slide {
+    flex: 0 0 100%;
+  }
+  .carousel-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .carousel-control {
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+
+  .no-scrollbar
+  {
+    overflow: hidden;
+  }
+
+
+#headOfSite {
+    color: #ffffff;
+    margin-bottom: 40px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 0px;
+}

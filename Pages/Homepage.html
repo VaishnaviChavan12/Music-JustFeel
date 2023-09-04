@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Only Music</title>
+
+
+        <!-- Link to Bootstrap CSS -->
+        <link
+        rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <!-- Link to your custom CSS -->
+        <link rel="stylesheet" href="/CSS/homepage.css">
+        <link rel="icon" type="image/x-icon" href="../../Images/siteImage/fav-icon.png">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <div>
+            <div id="headOfSite" ">
+                <!-- Navigation Bar -->
+                <nav class="navbar navbar-expand-lg text-white bg-dark ">
+                    <a href="Homepage.html"><img src="../Images/siteImage/site-icon.png" height="25.5rem" width="25.5rem"></a>
+
+                    <div class="navbar-brand">JustFeel!</div>
+
+                    <section class="search-bar" class="search">
+                        <form class="form-inline justify-content-xl-start mt-1">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search tune.." aria-label="Search">
+                        </form>
+                    </section>
+
+                    <div class="menu">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Login</a>
+                        </li>
+                    </div>
+
+                </nav>
+
+                <!-- Hero Section -->
+                <section class="hero bg-dark text-white text-center py-1">
+                    <div class="container ">
+                        <h1>If you are tired then please come here..!</h1>
+                        <p>If music be the food of love, play on.</p>
+                        <!--<a href="#" class="btn btn-light btn-lg">Learn More</a>-->
+                    </div>
+                </section>
+            </div>
+
+
+            <!--Create a image slide-->
+            <div class="carousel-container">
+                <div class="carousel-track">
+
+
+                    <div class="carousel-slide">
+                        <a href="#">
+                            <section class="column text-white">
+                                <img src="../Images/slide/heeriye.webp">
+                                <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-base text-center pt-2"></div>
+                            </section>
+                        </a>
+                    </div>
+                    <div class="carousel-slide">
+                        <a href="#">
+                            <section class="column text-white">
+                                <img src="../Images/slide/BreakAndMove.webp">
+                                <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-base text-center pt-2"></div>
+                            </section>
+                        </a>
+                    </div>
+                    <div class="carousel-slide">
+                        <a href="#">
+                            <section class="column text-white">
+                                <img src="../Images/slide/english.webp">
+                                <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-base text-center pt-2"></div>
+                            </section>
+                        </a>
+                    </div>
+                    <div class="carousel-slide">
+                        <a href="#">
+                            <section class="column text-white">
+                                <img src="../Images/slide/newEnglish.webp">
+                                <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-base text-center pt-2"></div>
+                            </section>
+                        </a>
+                    </div>
+                    <div class="carousel-slide">
+                        <a href="#">
+                            <section class="column text-white">
+                                <img src="../Images/slide/dreamGirl.webp">
+                                <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-base text-center pt-2"></div>
+                            </section>
+                        </a>
+                    </div>
+                    <div class="carousel-slide">
+                        <a href="#">
+                            <section class="column text-white">
+                                <img src="../Images/slide/FarFromForever.webp">
+                                <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-base text-center pt-2"></div>
+                            </section>
+                        </a>
+                    </div>
+                    <div class="carousel-slide">
+                        <a href="#">
+                            <section class="column text-white">
+                                <img src="../Images/slide/gadar.webp">
+                                <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-base text-center pt-2"></div>
+                            </section>
+                        </a>
+                    </div>
+                    <div class="carousel-slide">
+                        <a href="#">
+                            <section class="column text-white">
+                                <img src="../Images/slide/party.webp">
+                                <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-base text-center pt-2"></div>
+                            </section>
+                        </a>
+                    </div>
+                    <div class="carousel-slide">
+                        <a href="#">
+                            <section class="column text-white">
+                                <img src="../Images/slide/top20.webp">
+                                <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-base text-center pt-2"></div>
+                            </section>
+                        </a>
+                    </div>
+                    <!-- Add more carousel slides with different content -->
+                </div>
+                <div class="carousel-controls">
+                    <div class="carousel-control" onclick="prevSlide()">&#10094;
+                    </div>
+                    <div class="carousel-control" onclick="nextSlide()">
+                        &#10095;</div>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <div class="font-medium text-wynk-static-black-title mb-4 flex justify-between items-center dark:text-wynk-dark-text">
+                    <h2 class="cursor-pointer" class="font-medium text-wynk-static-black-title mb-4 flex justify-between items-center dark:text-wynk-dark-text">
+                        Trending Song
+                    </h2>
+                </div>
+
+                <div class="sec no-scrollbar">
+                    <a
+                        href="#">
+                        <!--Create a first Section-->
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/adipurush.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                Ram Siya Ram
+                            </div>
+                        </section>
+                    </a>
+
+                    <a href="#">
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/bhediya.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                Apna Bana Le
+                            </div>
+                        </section>
+                    </a>
+
+                    <a href="#">
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/whatAZumka.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                What Zumka
+                            </div>
+                        </section>
+                    </a>
+
+                    <a href="#">
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/deva.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                Deva Deva
+                            </div>
+                        </section>
+                    </a>
+
+                    <a href="#">
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/kesariya.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                Kesariya
+                            </div>
+                        </section>
+                    </a>
+
+                    <a href="#">
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/tumMile.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                Tum Kya Mile
+                            </div>
+                        </section>
+                    </a>
+
+                    <a href="#">
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/uddJa.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                Udd Ja Kale kava
+                            </div>
+                        </section>
+                    </a>
+
+                    <a href="#">
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/chaleya.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                Udd Ja Kale kava
+                            </div>
+                        </section>
+                    </a>
+
+                    <a href="#">
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/phirAurKyaChahiye.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                Udd Ja Kale kava
+                            </div>
+                        </section>
+                    </a>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="container">
+                <div class="font-medium text-wynk-static-black-title mb-4 flex justify-between items-center dark:text-wynk-dark-text">
+                    <h2 class="cursor-pointer">Indian Song</h2>
+                </div>
+
+                <div class="sec no-scrollbar">
+                    <a
+                        href="#">
+                        <!--Create a first Section-->
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/adipurush.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                Ram Siya Ram
+                            </div>
+                        </section>
+                    </a>
+
+                    <a href="#">
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/bhediya.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                Apna Bana Le
+                            </div>
+                        </section>
+                    </a>
+
+                    <a href="#">
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/whatAZumka.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                Zumka
+                            </div>
+                        </section>
+                    </a>
+
+                    <a href="#">
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/deva.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                Deva Deva
+                            </div>
+                        </section>
+                    </a>
+
+                    <a href="#">
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/kesariya.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                Kesariya
+                            </div>
+                        </section>
+                    </a>
+
+                    <a href="#">
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/tumMile.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                Tum Mile
+                            </div>
+                        </section>
+                    </a>
+
+                    <a href="#">
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/uddJa.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                Udd Ja Kale kava
+                            </div>
+                        </section>
+                    </a>
+
+                    <a href="#">
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/uddJa.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                Udd Ja Kale kava
+                            </div>
+                        </section>
+                    </a>
+
+                    <a href="#">
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/uddJa.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                Udd Ja Kale kava
+                            </div>
+                        </section>
+                    </a>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="container">
+                <div class="font-medium text-wynk-static-black-title mb-4 flex justify-between items-center dark:text-wynk-dark-text">
+                    <h2 class="cursor-pointer">Top English Song</h2>
+                </div>
+
+                <div class="sec no-scrollbar">
+                    <a
+                        href="#">
+                        <!--Create a first Section-->
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/adipurush.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                Ram Siya Ram
+                            </div>
+                        </section>
+                    </a>
+
+                    <a href="#">
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/bhediya.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                Apna Bana Le
+                            </div>
+                        </section>
+                    </a>
+
+                    <a href="#">
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/whatAZumka.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                Zumka
+                            </div>
+                        </section>
+                    </a>
+
+                    <a href="#">
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/deva.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                Deva Deva
+                            </div>
+                        </section>
+                    </a>
+
+                    <a href="#">
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/kesariya.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                Kesariya
+                            </div>
+                        </section>
+                    </a>
+
+                    <a href="#">
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/tumMile.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                Tum Mile
+                            </div>
+                        </section>
+                    </a>
+
+                    <a href="#">
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/uddJa.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                Udd Ja Kale kava
+                            </div>
+                        </section>
+                    </a>
+
+                    <a href="#">
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/uddJa.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                Udd Ja Kale kava
+                            </div>
+                        </section>
+                    </a>
+
+                    <a href="#">
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/uddJa.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                Udd Ja Kale kava
+                            </div>
+                        </section>
+                    </a>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="container">
+                <div class="font-medium text-wynk-static-black-title mb-4 flex justify-between items-center dark:text-wynk-dark-text">
+                    <h2 class="cursor-pointer">Moods</h2>
+                </div>
+
+                <div class="sec no-scrollbar">
+                    <a
+                        href="#">
+                        <!--Create a first Section-->
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/adipurush.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                Ram Siya Ram
+                            </div>
+                        </section>
+                    </a>
+
+                    <a href="#">
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/bhediya.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                Apna Bana Le
+                            </div>
+                        </section>
+                    </a>
+
+                    <a href="#">
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/whatAZumka.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                Zumka
+                            </div>
+                        </section>
+                    </a>
+
+                    <a href="#">
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/deva.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                Deva Deva
+                            </div>
+                        </section>
+                    </a>
+
+                    <a href="#">
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/kesariya.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                Kesariya
+                            </div>
+                        </section>
+                    </a>
+
+                    <a href="#">
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/tumMile.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                Tum Mile
+                            </div>
+                        </section>
+                    </a>
+
+                    <a href="#">
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/uddJa.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                Udd Ja Kale kava
+                            </div>
+                        </section>
+                    </a>
+
+                    <a href="#">
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/uddJa.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                Udd Ja Kale kava
+                            </div>
+                        </section>
+                    </a>
+
+                    <a href="#">
+                        <section class="column text-white">
+                            <img class="Image" src="../Images/trend/uddJa.jpg">
+                            <div class="hero truncate font-normal text-wynk-static-black-title dark:text-wynk-dark-text text-dark text-center pt-2">
+                                Udd Ja Kale kava
+                            </div>
+                        </section>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- About Section 
+                    <section>
+                        <div class="container">
+                            <h2>About Us</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula ex eu ultricies.</p>
+                        </div>
+                    </section>-->
+        <!-- Footer >
+                    <footer class="footer bg-dark text-white text-center py-1">
+                        <div class="container">
+                            <p>&copy; 2023 Your Company. All Rights Reserved.</p>
+                        </div>
+                    </footer>  -->
+
+
+        <!--Create a slide-->
+            <script>
+const carouselTrack = document.querySelector('.carousel-track');
+const carouselSlides = document.querySelectorAll('.carousel-slide');
+const slideWidth = carouselSlides[0].clientWidth;
+const carouselControls = document.querySelectorAll('.carousel-control');
+let currentIndex = 0;
+
+function goToSlide(index) {
+    carouselTrack.style.transform = `translateX(-${
+        index * slideWidth
+    }px)`;
+    currentIndex = index;
+}
+
+function nextSlide() {
+    currentIndex = (currentIndex + 1) % carouselSlides.length;
+    goToSlide(currentIndex);
+}
+
+function prevSlide() {
+    currentIndex = (currentIndex - 1 + carouselSlides.length) % carouselSlides.length;
+    goToSlide(currentIndex);
+}
+
+for (const control of carouselControls) {
+    control.addEventListener('click', () => {
+        clearTimeout(autoSlideInterval);
+        autoSlideInterval = setInterval(nextSlide, 4000);
+    });
+}
+
+let autoSlideInterval = setInterval(nextSlide, 4000);
+    </script>
+        <!-- Link to Bootstrap JS and jQuery -->
+
+
+    </body>
+</html>
